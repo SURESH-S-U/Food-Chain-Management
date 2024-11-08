@@ -1,0 +1,118 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0); /* Single background block */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #333333;
+  font-weight: 600;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(45deg, #db0a0e, #0b8a46);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 60px;
+}
+
+.shipment-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-bottom: 80px;
+}
+
+.shipment-form input {
+  width: 75%;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: 2px solid #ff4e50;
+  border-radius: 5px;
+}
+
+/* Button styling to match size for Add and Distribute */
+button {
+  width: 140px; /* Adjusted width for smaller button */
+  height: 40px; /* Adjusted height for smaller button */
+  font-size: 0.9rem;
+  color: #ffffff;
+  background-color: #ff4e50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f94c4c;
+}
+
+.stack-display h2 {
+  font-size: 1.6rem;
+  color: #096a32;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+
+}
+
+ul li {
+  padding: 5px 8px;
+  margin: 6px 0;
+  background-color: #ffeeee;
+  color: #0f0101;
+  border-radius: 4px;
+  font-size: 1.3rem;
+  display: ruby-text;
+  margin-right: 10px;
+}
+
+.distributed-item {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+
+.distributed-item h2 {
+  margin-top: 50px;
+  font-size: 1.6rem;
+  color: #096a32;
+  margin-bottom: -0.1px;
+}
+
+.distributed-item p {
+  font-size: 1.3rem;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px 8px;
+}
+
+button:disabled {
+  color: #f0f4f8;
+  background-color: #ff4e50;
+  cursor: not-allowed;
+}
